@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: {your-dockerhub-username}/{app-name}:{tag}
+    image: klinchoni/students:latest
     ports:
       - "3030:3030" # Map port 3030 on the host to port 3030 in the container
     environment:
